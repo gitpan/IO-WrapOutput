@@ -3,12 +3,13 @@ BEGIN {
   $IO::WrapOutput::AUTHORITY = 'cpan:HINRIK';
 }
 BEGIN {
-  $IO::WrapOutput::VERSION = '0.01';
+  $IO::WrapOutput::VERSION = '0.02';
 }
 
 use strict;
 use warnings FATAL => 'all';
 use Carp 'croak';
+use IO::Handle;
 use Symbol 'gensym';
 use base 'Exporter';
 
