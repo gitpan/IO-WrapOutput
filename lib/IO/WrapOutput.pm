@@ -3,7 +3,7 @@ BEGIN {
   $IO::WrapOutput::AUTHORITY = 'cpan:HINRIK';
 }
 BEGIN {
-  $IO::WrapOutput::VERSION = '0.06';
+  $IO::WrapOutput::VERSION = '0.07';
 }
 
 use strict;
